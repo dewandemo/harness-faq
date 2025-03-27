@@ -80,6 +80,22 @@ const config = {
             label: 'Tutorial',
           },
           {
+            position: 'right',
+            type: `dropdown`,
+            label: `FAQs`,
+            to: 'docs',
+            items: [
+              {
+                label: 'Continuous Delivery',
+                to: `docs/continuous-delivery`
+              },
+              {
+                label: `Continuous Integration`,
+                to: `docs/continuous-integration`,
+              },
+            ],
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
