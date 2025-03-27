@@ -28,11 +28,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
-
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -74,10 +69,20 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            type: `dropdown`,
+            label: `FAQs`,
+            to: 'docs/intro',
+            items: [
+              {
+                label: 'Continuous Delivery',
+                to: `docs/category/continuous-delivery-faqs`
+              },
+              {
+                label: `Continuous Integration`,
+                to: `docs/category/continuous-integration-faqs`,
+              },
+            ],
           },
           {
             href: 'https://github.com/facebook/docusaurus',
