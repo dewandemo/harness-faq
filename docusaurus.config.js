@@ -76,11 +76,11 @@ const config = {
             items: [
               {
                 label: 'Continuous Delivery',
-                to: `docs/category/continuous-delivery`
+                to: `docs/category/continuous-delivery-faqs`
               },
               {
                 label: `Continuous Integration`,
-                to: `docs/category/continuous-integration`,
+                to: `docs/category/continuous-integration-faqs`,
               },
             ],
           },
