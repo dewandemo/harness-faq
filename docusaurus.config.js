@@ -72,15 +72,15 @@ const config = {
             position: 'left',
             type: `dropdown`,
             label: `FAQs`,
-            to: 'docs',
+            to: 'docs/intro',
             items: [
               {
                 label: 'Continuous Delivery',
-                to: `docs/continuous-delivery`
+                to: `docs/category/continuous-delivery`
               },
               {
                 label: `Continuous Integration`,
-                to: `docs/continuous-integration`,
+                to: `docs/category/continuous-integration`,
               },
             ],
           },
