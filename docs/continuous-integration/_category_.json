@@ -1,0 +1,10 @@
+{
+    "label": "Continuous Integration FAQs",
+    "collapsible": "true",
+    "collapsed": "true",
+    "className": "red",
+    "link": {
+        "type": "generated-index",
+        "title": "Continuous Integration FAQs"
+    }
+}

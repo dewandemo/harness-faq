@@ -1,0 +1,10 @@
+{
+    "label": "Continuous Delivery FAQs",
+    "collapsible": "true",
+    "collapsed": "true",
+    "className": "red",
+    "link": {
+        "type": "generated-index",
+        "title": "Continuous Delivery FAQs"
+    }
+}
