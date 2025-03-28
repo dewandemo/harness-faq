@@ -60,11 +60,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://developer.harness.io/img/hdh-social-card.png',
       navbar: {
         title: 'Harness FAQ',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Harness FAQs',
           src: 'img/logo.svg',
         },
         items: [
@@ -82,55 +82,22 @@ const config = {
                 label: `Continuous Integration`,
                 to: `docs/category/continuous-integration-faqs`,
               },
+              {
+                label: `Platform`,
+                to: `docs/category/platform-faqs`,
+              },
             ],
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/dewandemo/harenss-faq',
+            label: 'Visit Source',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'FAQs',
-            items: [
-              {
-                label: 'Intro',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Harness Inc.`,
       },
       prism: {
         theme: prismThemes.github,
