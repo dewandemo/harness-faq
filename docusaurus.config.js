@@ -62,7 +62,7 @@ const config = {
       // Replace with your project's social card
       image: 'https://developer.harness.io/img/hdh-social-card.png',
       navbar: {
-        title: 'Harness FAQ',
+        title: 'FAQ',
         logo: {
           alt: 'Harness FAQs',
           src: 'img/logo.svg',
