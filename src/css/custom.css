@@ -1,25 +1,23 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-/* You can override the default Infima variables here. */
+
 :root {
-  --ifm-color-primary: #2e8555;
+
+  --primary-7: #0278d5;
+  --primary-5: #00ade4;
+  --ifm-color-primary: #0278d5;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-light: var(--primary-5);
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #0278d5;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -27,4 +25,75 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+html,
+body {
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.button--nav {
+  background-color: #ffffff;
+  border: 1px solid var(--primary-7);
+  color: var(--primary-7);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button--nav:hover {
+  background-color: var(--primary-5);
+  border-color: var(--primary-5);
+  color: white;
+}
+
+.button--cta {
+  background-color: var(--primary-7);
+  border-color: var(--primary-7);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.button--cta:hover {
+  background-color: var(--primary-5);
+  border-color: var(--primary-5);
+  color: white;
+}
+
+.sidebar-platform > div > a::before,
+.sidebar-platform > a::before {
+  content: ' ';
+  display: inline-block;
+  height: 24px;
+  min-width: 24px;
+  margin-right: 16px;
+  background-image: url('https://developer.harness.io/img/icon_harness.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sidebar-ci > div > a::before,
+.sidebar-ci > a::before {
+  content: ' ';
+  display: inline-block;
+  height: 24px;
+  min-width: 24px;
+  margin-right: 16px;
+  background-image: url('https://developer.harness.io/img/icon_ci.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sidebar-cd > div > a::before,
+.sidebar-cd > a::before {
+  content: ' ';
+  display: inline-block;
+  height: 24px;
+  min-width: 24px;
+  margin-right: 16px;
+  background-image: url('https://developer.harness.io/img/icon_cd.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }

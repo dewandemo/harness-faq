@@ -1,0 +1,39 @@
+.homepageFaqs {
+  width: 100%;
+  max-width: 940px;
+  margin: 50px auto;
+  text-align: left;
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+.h4 {
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  margin: 15px 0 10px;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  margin: 8px 0;
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  a {
+    line-height: 20px;
+    font-size: 18px;
+  }
+}
+.listItem::before {
+  content: '•';
+  margin-right: 12px;
+}

@@ -1,10 +1,7 @@
 {
-    "label": "Platform FAQs",
-    "collapsible": "true",
-    "collapsed": "true",
-    "className": "red",
-    "link": {
-        "type": "generated-index",
-        "title": "Platform FAQs"
-    }
+  "label": "Platform",
+  "collapsible": "true",
+  "collapsed": "true",
+  "className": "red",
+  "link": { "type": "generated-index", "title": "Platform" }
 }
