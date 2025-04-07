@@ -1,4 +1,5 @@
 ---
+id: platform-002
 title: Access Control and RBAC FAQs
 description: Common questions around Harness Access Control.
 sidebar_position: 2

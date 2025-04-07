@@ -20,7 +20,7 @@ const config: Config = {
   projectName: 'FAQ', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -41,7 +41,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/dewandemo/harness-faq',
         },
         blog: false,
         theme: {
@@ -61,27 +61,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          position: 'left',
-          type: `dropdown`,
-          label: `FAQs`,
-          to: 'docs/intro',
-          items: [
-            {
-              label: 'Continuous Delivery',
-              to: `docs/continuous-delivery`,
-            },
-            {
-              label: `Continuous Integration`,
-              to: `docs/continuous-integration`,
-            },
-            {
-              label: `Platform`,
-              to: `docs/platform`,
-            },
-          ],
-        },
-
         {
           position: 'right',
           html: '<button class="button  button--nav">Suggest an idea</button>',

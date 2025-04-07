@@ -1,4 +1,5 @@
 ---
+id: platform-001
 title: Subscriptions FAQs
 description: Common questions around Harness Subscriptions.
 sidebar_position: 1
