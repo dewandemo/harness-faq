@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
+.theme-doc-markdown {
+  min-height: 50dvh !important;
+}
 
 :root {
-
+  --primary-10: #07182b;
+  --primary-9: #0a3364;
+  --primary-8: #004ba4;
   --primary-7: #0278d5;
+  --primary-6: #0092e4;
   --primary-5: #00ade4;
+  --primary-4: #3dc7f6;
+  --primary-3: #a3e9ff;
+  --primary-2: #cdf4fe;
+  --primary-1: #effbff;
+
   --ifm-color-primary: #0278d5;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;

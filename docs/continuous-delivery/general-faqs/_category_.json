@@ -1,0 +1,7 @@
+{
+  "label": "General",
+  "collapsible": "true",
+  "collapsed": "true",
+  "className": "red",
+  "link": { "type": "generated-index", "title": "General" }
+}

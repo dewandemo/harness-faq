@@ -13,11 +13,6 @@ export default function Home() {
     >
       <main
         style={{
-          // display: 'flex',
-          // flexDirection: 'column',
-          // justifyContent: 'center',
-          // alignItems: 'center',
-          height: '80vh',
           textAlign: 'center',
           margin: '50px 0px',
         }}
