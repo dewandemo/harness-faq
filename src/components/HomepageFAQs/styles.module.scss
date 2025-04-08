@@ -38,7 +38,7 @@
   }
 
   .seeAll {
-    color: red;
+    color: #0092E4;
     cursor: pointer;
     background: 0 0;
     border: none;
@@ -47,7 +47,8 @@
     line-height: 16px;
     padding: 32px;
     &:hover {
-      color: orangered;
+      color: #0092E4;
+      background-color: #EFFBFF;
     }
   }
   ul {
